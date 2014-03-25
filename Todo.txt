@@ -1,0 +1,11 @@
+TODO:
+	- Proper inside Scripting
+		- System plugin
+		- Statistics plugin (graphs,charts)
+	- Change the way the edit-field behaves. Add save/apply-button
+Done:
+	+ Change NSArrayController not to prepare content since that's already done in awakeFromNib in PlayController
+	+ Check on how to create _small_ NSWindow (when rendering with background the window is as large as it should be, beware of margins)
+		+ Check on using NSPanel instead (sucked, didn't make any difference)
+	+ Update windows when content change
+	+ WindowMoving

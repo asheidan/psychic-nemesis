@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                newGadget = id; 
+                removeGadget = id; 
+                showAllRenderWindows = id; 
+                showEditWindow = id; 
+            }; 
+            CLASS = PlayController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                coreDataController = NSArrayController; 
+                editWindow = NSWindow; 
+                textView = NSTextView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {saveAction = id; }; 
+            CLASS = "Playhouse_AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = TransparentWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}
